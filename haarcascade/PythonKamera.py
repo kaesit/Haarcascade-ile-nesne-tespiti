@@ -15,7 +15,7 @@ while True:
      for (i, j, x, y) in signs:
           cv2.rectangle(goruntu, (i, j), (i + x, j + y), (255, 0, 0), 2)
           cv2.putText(goruntu, "Saga Don", (i, j), font1, 1, (255, 0, 0), cv2.LINE_4)
-     cv2.imshow("Esad Kamera", goruntu)     
+     cv2.imshow("Kamera", goruntu)     
      #waitKey fonksiyonu parametresinde ki milisaniye değerine göre çekim yapar
      #0xFF ise bir tuşa basıldığında  koşula bağlı verilecek tepki için yazılır
      #'ord' ise tek karakter içindir. 
