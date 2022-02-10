@@ -2,7 +2,7 @@ import cv2
 
 
 kamera = cv2.VideoCapture(0)
-mycascade = cv2.CascadeClassifier('C:\opencv\mycascade\classifier\\cascade.xml')
+mycascade = cv2.CascadeClassifier('\opencv\mycascade\classifier\\cascade.xml')
 font1 = cv2.FONT_HERSHEY_SIMPLEX
 while True:
      ret,goruntu = kamera.read()
